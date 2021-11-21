@@ -23,7 +23,7 @@ void main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowPosition(0, 100);
     glutInitWindowSize(40, 70);
-    glutCreateWindow("Rombus");
+    glutCreateWindow("Rhombus");
     init();
     glutDisplayFunc(rhombus);
     glutMainLoop();
